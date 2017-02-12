@@ -1,46 +1,52 @@
 {
 	"200": {
 		"status": {
-			"code": "200 OK"
+			"type": "200 OK"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": null
+		},
+		"message": {
 			"code": 200,
 			"title": "OK",
-			"rfc": null,
 			"detail": "HTTP requests successful"
 		}
 	},
 	"201": {
 		"status": {
-			"code": "201 Created"
+			"type": "201 Created"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": null
+		},
+		"message": {
 			"code": 201,
 			"title": "Created",
-			"rfc": null,
 			"detail": "The request has been fulfilled, resulting in the creation of a new resource"
 		}
 	},
 	"202": {
 		"status": {
-			"code": "202 Accepted"
+			"type": "202 Accepted"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": null
+		},
+		"message": {
 			"code": 202,
 			"title": "Accepted",
-			"rfc": null,
 			"detail": "The request has been accepted for processing, but the processing has not been completed"
 		}
 	},
 	"203": {
 		"status": {
-			"code": "203 Non-Authoritative Information"
+			"type": "203 Non-Authoritative Information"
 		},
-		"error": {
-			"count": 0,
+		"message": {
+			"is_error": false,
 			"code": 203,
 			"title": "Non-Authoritative Information",
 			"rfc": null,
@@ -49,46 +55,52 @@
 	},
 	"204": {
 		"status": {
-			"code": "204 No Content"
+			"type": "204 No Content"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": null
+		},
+		"message": {
 			"code": 204,
 			"title": "No Content",
-			"rfc": null,
 			"detail": "The server successfully processed the request and is not returning any content"
 		}
 	},
 	"205": {
 		"status": {
-			"code": "205 Reset Content"
+			"type": "205 Reset Content"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": null
+		},
+		"message": {
 			"code": 205,
 			"title": "Reset Content",
-			"rfc": null,
 			"detail": "The server successfully processed the request, but is not returning any content. This response requires that the requester reset the document view"
 		}
 	},
 	"206": {
 		"status": {
-			"code": "206 Partial Content"
+			"type": "206 Partial Content"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": 7233
+		},
+		"message": {
 			"code": 206,
 			"title": "Partial Content",
-			"rfc": 7233,
 			"detail": "The server is delivering only part of the resource due to a range header sent by the client"
 		}
 	},
 	"207": {
 		"status": {
-			"code": "207 Multi-Status"
+			"type": "207 Multi-Status"
 		},
-		"error": {
-			"count": 0,
+		"message": {
+			"is_error": false,
 			"code": 207,
 			"title": "Multi-Status",
 			"rfc": 4918,
@@ -97,346 +109,402 @@
 	},
 	"208": {
 		"status": {
-			"code": "208 Already Reported"
+			"type": "208 Already Reported"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": 5842
+		},
+		"message": {
 			"code": 208,
 			"title": "Already Reported",
-			"rfc": 5842,
 			"detail": "The members of a DAV binding have already been enumerated in a previous reply to this request, and are not being included again"
 		}
 	},
 	"226": {
 		"status": {
-			"code": "226 IM Used"
+			"type": "226 IM Used"
 		},
-		"error": {
-			"count": 0,
+		"stats": {
+			"is_error": false,
+			"rfc": 3229
+		},
+		"message": {
 			"code": 226,
 			"title": "IM Used",
-			"rfc": 3229,
 			"detail": "The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance"
 		}
 	},
 	"300": {
 		"status": {
-			"code": "300 Multiple Choices"
+			"type": "300 Multiple Choices"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 300,
 			"title": "Multiple Choices",
-			"rfc": null,
 			"detail": "Indicates multiple options for the resource from which the client may choose"
 		}
 	},
 	"301": {
 		"status": {
-			"code": "301 Moved Permanently"
+			"type": "301 Moved Permanently"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 301,
 			"title": "Moved Permanently",
-			"rfc": null,
 			"detail": "This and all future requests should be directed to the given URI"
 		}
 	},
 	"302": {
 		"status": {
-			"code": "302 Found"
+			"type": "302 Found"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 1945
+		},
+		"message": {
 			"code": 302,
 			"title": "Moved Temporarily",
-			"rfc": 1945,
 			"detail": "Moved Temporarily"
 		}
 	},
 	"303": {
 		"status": {
-			"code": "303 See Other"
+			"type": "303 See Other"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 303,
 			"title": "See Other",
-			"rfc": null,
 			"detail": "The response to the request can be found under another URI using a GET method"
 		}
 	},
 	"304": {
 		"status": {
-			"code": "304 Not Modified"
+			"type": "304 Not Modified"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7232
+		},
+		"message": {
 			"code": 304,
 			"title": "Not Modified",
-			"rfc": 7232,
 			"detail": "The resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match"
 		}
 	},
 	"305": {
 		"status": {
-			"code": "305 Use Proxy"
+			"type": "305 Use Proxy"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 305,
 			"title": "Use Proxy",
-			"rfc": null,
 			"detail": "The requested resource is available only through a proxy, the address for which is provided in the response"
 		}
 	},
 	"306": {
 		"status": {
-			"code": "306 Switch Proxy"
+			"type": "306 Switch Proxy"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 306,
 			"title": "Switch Proxy",
-			"rfc": null,
 			"detail": "Subsequent requests should use the specified proxy"
 		}
 	},
 	"307": {
 		"status": {
-			"code": "307 Temporary Redirect"
+			"type": "307 Temporary Redirect"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 307,
 			"title": "Temporary Redirect",
-			"rfc": null,
 			"detail": "The request should be repeated with another URI; however, future requests should still use the original URI"
 		}
 	},
 	"308": {
 		"status": {
-			"code": "308 Permanent Redirect"
+			"type": "308 Permanent Redirect"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7538
+		},
+		"message": {
 			"code": 308,
 			"title": "Permanent Redirect",
-			"rfc": 7538,
 			"detail": "The request and all future requests should be repeated using another URI"
 		}
 	},
 	"400": {
 		"status": {
-			"code": "400 Bad Request"
+			"type": "400 Bad Request"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 400,
 			"title": "Bad Request",
-			"rfc": null,
 			"detail": "The server cannot or will not process the request due to an apparent client error"
 		}
 	},
 	"401": {
 		"status": {
-			"code": "401 Unauthorized"
+			"type": "401 Unauthorized"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7235
+		},
+		"message": {
 			"code": 401,
 			"title": "Unauthorized",
-			"rfc": 7235,
 			"detail": "The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource"
 		}
 	},
 	"403": {
 		"status": {
-			"code": "403 Forbidden"
+			"type": "403 Forbidden"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 403,
 			"title": "Forbidden",
-			"rfc": null,
 			"detail": "The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource"
 		}
 	},
 	"404": {
 		"status": {
-			"code": "404 Not Found"
+			"type": "404 Not Found"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 404,
 			"title": "Not Found",
-			"rfc": null,
 			"detail": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible."
 		}
 	},
 	"405": {
 		"status": {
-			"code": "405 Method Not Allowed"
+			"type": "405 Method Not Allowed"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 405,
 			"title": "Method Not Allowed",
-			"rfc": null,
 			"detail": "A request method is not supported for the requested resource"
 		}
 	},
 	"406": {
 		"status": {
-			"code": "406 Not Acceptable"
+			"type": "406 Not Acceptable"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 406,
 			"title": "Not Acceptable",
-			"rfc": null,
 			"detail": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request"
 		}
 	},
 	"407": {
 		"status": {
-			"code": "407 Proxy Authentication Required"
+			"type": "407 Proxy Authentication Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7235
+		},
+		"message": {
 			"code": 407,
 			"title": "Proxy Authentication Required",
-			"rfc": 7235,
 			"detail": "The client must first authenticate itself with the proxy"
 		}
 	},
 	"408": {
 		"status": {
-			"code": "408 Request Timeout"
+			"type": "408 Request Timeout"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 408,
 			"title": "Request Timeout",
-			"rfc": null,
 			"detail": "The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time"
 		}
 	},
 	"409": {
 		"status": {
-			"code": "409 Conflict"
+			"type": "409 Conflict"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 409,
 			"title": "Conflict",
-			"rfc": null,
 			"detail": "The request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates"
 		}
 	},
 	"410": {
 		"status": {
-			"code": "410 Gone"
+			"type": "410 Gone"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 410,
 			"title": "Gone",
-			"rfc": null,
 			"detail": "The resource requested is no longer available and will not be available again"
 		}
 	},
 	"411": {
 		"status": {
-			"code": "411 Length Required"
+			"type": "411 Length Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 411,
 			"title": "Length Required",
-			"rfc": null,
 			"detail": "The request did not specify the length of its content, which is required by the requested resource"
 		}
 	},
 	"412": {
 		"status": {
-			"code": "412 Precondition Failed"
+			"type": "412 Precondition Failed"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7232
+		},
+		"message": {
 			"code": 412,
 			"title": "Precondition Failed",
-			"rfc": 7232,
 			"detail": "The server does not meet one of the preconditions that the requester put on the request"
 		}
 	},
 	"413": {
 		"status": {
-			"code": "413 Payload Too Large"
+			"type": "413 Payload Too Large"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7231
+		},
+		"message": {
 			"code": 413,
 			"title": "Payload Too Large",
-			"rfc": 7231,
 			"detail": "Request Entity Too Large"
 		}
 	},
 	"414": {
 		"status": {
-			"code": "414 URI Too Long"
+			"type": "414 URI Too Long"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7231
+		},
+		"message": {
 			"code": 414,
 			"title": "URI Too Long",
-			"rfc": 7231,
 			"detail": "The URI provided was too long for the server to process"
 		}
 	},
 	"415": {
 		"status": {
-			"code": "415 Unsupported Media Type"
+			"type": "415 Unsupported Media Type"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 415,
 			"title": "Unsupported Media Type",
-			"rfc": null,
 			"detail": "The request entity has a media type which the server or resource does not support"
 		}
 	},
 	"416": {
 		"status": {
-			"code": "416 Range Not Satisfiable"
+			"type": "416 Range Not Satisfiable"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7233
+		},
+		"message": {
 			"code": 416,
 			"title": "Range Not Satisfiable",
-			"rfc": 7233,
 			"detail": "The client has asked for a portion of the file, but the server cannot supply that portion"
 		}
 	},
 	"417": {
 		"status": {
-			"code": "417 Expectation Failed"
+			"type": "417 Expectation Failed"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 417,
 			"title": "Expectation Failed",
-			"rfc": null,
 			"detail": "The server cannot meet the requirements of the Expect request-header field"
 		}
 	},
 	"418": {
 		"status": {
-			"code": "418 I'm a teapot"
+			"type": "418 I'm a teapot"
 		},
-		"error": {
-			"count": 1,
+		"message": {
+			"is_error": true,
 			"code": 418,
 			"title": "I'm a teapot",
 			"rfc": 2324,
@@ -445,106 +513,122 @@
 	},
 	"421": {
 		"status": {
-			"code": "421 Misdirected Request"
+			"type": "421 Misdirected Request"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7540
+		},
+		"message": {
 			"code": 421,
 			"title": "Misdirected Request",
-			"rfc": 7540,
 			"detail": "The request was directed at a server that is not able to produce a response"
 		}
 	},
 	"422": {
 		"status": {
-			"code": "422 Unprocessable Entity"
+			"type": "422 Unprocessable Entity"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 4918
+		},
+		"message": {
 			"code": 422,
 			"title": "Unprocessable Entity",
-			"rfc": 4918,
 			"detail": "The request was well-formed but was unable to be followed due to semantic errors"
 		}
 	},
 	"423": {
 		"status": {
-			"code": "423 Locked"
+			"type": "423 Locked"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 4918
+		},
+		"message": {
 			"code": 423,
 			"title": "Locked",
-			"rfc": 4918,
 			"detail": "The resource that is being accessed is locked"
 		}
 	},
 	"424": {
 		"status": {
-			"code": "424 Failed Dependency"
+			"type": "424 Failed Dependency"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 4918
+		},
+		"message": {
 			"code": 424,
 			"title": "Failed Dependency",
-			"rfc": 4918,
 			"detail": "The request failed due to failure of a previous request"
 		}
 	},
 	"426": {
 		"status": {
-			"code": "426 Upgrade Required"
+			"type": "426 Upgrade Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 426,
 			"title": "Upgrade Required",
-			"rfc": null,
 			"detail": "The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field"
 		}
 	},
 	"428": {
 		"status": {
-			"code": "428 Precondition Required"
+			"type": "428 Precondition Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 6585
+		},
+		"message": {
 			"code": 428,
 			"title": "Precondition Required",
-			"rfc": 6585,
 			"detail": "The origin server requires the request to be conditional"
 		}
 	},
 	"429": {
 		"status": {
-			"code": "429 Too Many Requests"
+			"type": "429 Too Many Requests"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 6585
+		},
+		"message": {
 			"code": 429,
 			"title": "Too Many Requests",
-			"rfc": 6585,
 			"detail": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes"
 		}
 	},
 	"431": {
 		"status": {
-			"code": "431 Request Header Fields Too Large"
+			"type": "431 Request Header Fields Too Large"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 6585
+		},
+		"message": {
 			"code": 431,
 			"title": "Request Header Fields Too Large",
-			"rfc": 6585,
 			"detail": "The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large"
 		}
 	},
 	"440": {
 		"status": {
-			"code": "440 Login Time-out"
+			"type": "440 Login Time-out"
 		},
-		"error": {
-			"count": 1,
+		"message": {
+			"is_error": true,
 			"code": 440,
 			"title": "Login Time-out",
 			"rfc": null,
@@ -553,154 +637,178 @@
 	},
 	"444": {
 		"status": {
-			"code": "444 No Response"
+			"type": "444 No Response"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 444,
 			"title": "No Response",
-			"rfc": null,
 			"detail": "Used to indicate that the server has returned no information to the client and closed the connection"
 		}
 	},
 	"449": {
 		"status": {
-			"code": "449 Retry With"
+			"type": "449 Retry With"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 449,
 			"title": "Retry With",
-			"rfc": null,
 			"detail": "The client's session has expired and must log in again"
 		}
 	},
 	"451": {
 		"status": {
-			"code": "451 Unavailable For Legal Reasons"
+			"type": "451 Unavailable For Legal Reasons"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 7725
+		},
+		"message": {
 			"code": 451,
 			"title": "Unavailable For Legal Reasons",
-			"rfc": 7725,
 			"detail": "The server cannot honour the request because the user has not provided the required information"
 		}
 	},
 	"495": {
 		"status": {
-			"code": "495 SSL Certificate Error"
+			"type": "495 SSL Certificate Error"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 495,
 			"title": "SSL Certificate Error",
-			"rfc": null,
 			"detail": "An expansion of the 400 Bad Request response code, used when the client has provided an invalid client certificate"
 		}
 	},
 	"496": {
 		"status": {
-			"code": "496 SSL Certificate Required"
+			"type": "496 SSL Certificate Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 496,
 			"title": "SSL Certificate Required",
-			"rfc": null,
 			"detail": "An expansion of the 400 Bad Request response code, used when a client certificate is required but not provided"
 		}
 	},
 	"497": {
 		"status": {
-			"code": "497 HTTP Request Sent to HTTPS Port"
+			"type": "497 HTTP Request Sent to HTTPS Port"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 497,
 			"title": "HTTP Request Sent to HTTPS Port",
-			"rfc": null,
 			"detail": "An expansion of the 400 Bad Request response code, used when the client has made a HTTP request to a port listening for HTTPS requests"
 		}
 	},
 	"498": {
 		"status": {
-			"code": "498 Invalid Token"
+			"type": "498 Invalid Token"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 498,
 			"title": "Invalid Token",
-			"rfc": null,
 			"detail": "Returned by ArcGIS for Server. A code of 498 indicates an expired or otherwise invalid token"
 		}
 	},
 	"499": {
 		"status": {
-			"code": "499 Token Required"
+			"type": "499 Token Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 499,
 			"title": "Token Required",
-			"rfc": null,
 			"detail": "Returned by ArcGIS for Server. A code of 499 indicates that a token is required but was not submitted"
 		}
 	},
 	"500": {
 		"status": {
-			"code": "500 Internal Server Error"
+			"type": "500 Internal Server Error"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 500,
 			"title": "Internal Server Error",
-			"rfc": null,
 			"detail": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable"
 		}
 	},
 	"501": {
 		"status": {
-			"code": "501 Not Implemented"
+			"type": "501 Not Implemented"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 501,
 			"title": "Not Implemented",
-			"rfc": null,
 			"detail": "The server either does not recognize the request method, or it lacks the ability to fulfill the request"
 		}
 	},
 	"502": {
 		"status": {
-			"code": "502 Bad Gateway"
+			"type": "502 Bad Gateway"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 502,
 			"title": "Bad Gateway",
-			"rfc": null,
 			"detail": "The server was acting as a gateway or proxy and received an invalid response from the upstream server"
 		}
 	},
 	"503": {
 		"status": {
-			"code": "503 Service Unavailable"
+			"type": "503 Service Unavailable"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 503,
 			"title": "Service Unavailable",
-			"rfc": null,
 			"detail": "The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state"
 		}
 	},
 	"504": {
 		"status": {
-			"code": "504 Gateway Time-out"
+			"type": "504 Gateway Time-out"
 		},
-		"error": {
-			"count": 1,
+		"message": {
+			"is_error": true,
 			"code": 504,
 			"title": "Gateway Time-out",
 			"rfc": null,
@@ -709,109 +817,127 @@
 	},
 	"505": {
 		"status": {
-			"code": "505 HTTP Version Not Supported"
+			"type": "505 HTTP Version Not Supported"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 505,
 			"title": "HTTP Version Not Supported",
-			"rfc": null,
 			"detail": "The server does not support the HTTP protocol version used in the request."
 		}
 	},
 	"506": {
 		"status": {
-			"code": "506 Variant Also Negotiates"
+			"type": "506 Variant Also Negotiates"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 2295
+		},
+		"message": {
 			"code": 506,
 			"title": "Variant Also Negotiates",
-			"rfc": 2295,
 			"detail": "Transparent content negotiation for the request results in a circular reference"
 		}
 	},
 	"507": {
 		"status": {
-			"code": "507 Insufficient Storage"
+			"type": "507 Insufficient Storage"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 4918
+		},
+		"message": {
 			"code": 507,
 			"title": "Insufficient Storage",
-			"rfc": 4918,
 			"detail": "The server is unable to store the representation needed to complete the request"
 		}
 	},
 	"508": {
 		"status": {
-			"code": "508 Loop Detected"
+			"type": "508 Loop Detected"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 5842
+		},
+		"message": {
 			"code": 508,
 			"title": "Loop Detected",
-			"rfc": 5842,
 			"detail": "The server detected an infinite loop while processing the request (sent in lieu of 208 Already Reported)"
 		}
 	},
 	"509": {
 		"status": {
-			"code": "509 Bandwidth Limit Exceeded"
+			"type": "509 Bandwidth Limit Exceeded"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 5842
+		},
+		"message": {
 			"code": 509,
 			"title": "Bandwidth Limit Exceeded",
-			"rfc": 5842,
 			"detail": "The server has exceeded the bandwidth specified by the server administrator"
 		}
 	},
 	"510": {
 		"status": {
-			"code": "510 Not Extended"
+			"type": "510 Not Extended"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 2774
+		},
+		"message": {
 			"code": 510,
 			"title": "Not Extended",
-			"rfc": 2774,
 			"detail": "Further extensions to the request are required for the server to fulfill it"
 		}
 	},
 	"511": {
 		"status": {
-			"code": "511 Network Authentication Required"
+			"type": "511 Network Authentication Required"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": 6585
+		},
+		"message": {
 			"code": 511,
 			"title": "Network Authentication Required",
-			"rfc": 6585,
 			"detail": "The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network"
 		}
 	},
 	"598": {
 		"status": {
-			"code": "598 Network read timeout error"
+			"type": "598 Network read timeout error"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 598,
 			"title": "Network read timeout error",
-			"rfc": null,
 			"detail": "Used by some HTTP proxies to signal a network read timeout behind the proxy to a client in front of the proxy"
 		}
 	},
 	"599": {
 		"status": {
-			"code": "599 Network connect timeout error"
+			"type": "599 Network connect timeout error"
 		},
-		"error": {
-			"count": 1,
+		"stats": {
+			"is_error": true,
+			"rfc": null
+		},
+		"message": {
 			"code": 599,
 			"title": "Network connect timeout error",
-			"rfc": null,
 			"detail": "Used to indicate when the connection to the network times out"
 		}
 	}

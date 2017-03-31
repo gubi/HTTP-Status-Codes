@@ -101,11 +101,13 @@
 		"status": {
 			"type": "207 Multi-Status"
 		},
-		"message": {
+		"stats": {
 			"is_error": false,
+			"rfc": 4918
+		},
+		"message": {
 			"code": 207,
 			"title": "Multi-Status",
-			"rfc": 4918,
 			"detail": "The message body that follows is an XML message and can contain a number of separate response codes, depending on how many sub-requests were made"
 		}
 	},
@@ -505,11 +507,13 @@
 		"status": {
 			"type": "418 I'm a teapot"
 		},
-		"message": {
+		"stats": {
 			"is_error": true,
+			"rfc": 2324
+		},
+		"message": {
 			"code": 418,
 			"title": "I'm a teapot",
-			"rfc": 2324,
 			"detail": "The RFC 2324 specifies this code should be returned by teapots requested to brew coffee"
 		}
 	},

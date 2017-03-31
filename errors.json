@@ -45,11 +45,13 @@
 		"status": {
 			"type": "203 Non-Authoritative Information"
 		},
-		"message": {
+		"stats": {
 			"is_error": false,
+			"rfc": null
+		},
+		"message": {
 			"code": 203,
 			"title": "Non-Authoritative Information",
-			"rfc": null,
 			"detail": "The server is a transforming proxy that received a 200 OK from its origin, but is returning a modified version of the origin's response"
 		}
 	},

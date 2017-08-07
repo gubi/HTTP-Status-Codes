@@ -72,7 +72,9 @@
         type: "206 Partial Content"
     stats:
         is_error: false
-        rfc: 7233
+        rfc:
+            code: 7233,
+            url: "https://tools.ietf.org/html/rfc7233"
     message:
         code: 206
         title: "Partial Content"
@@ -82,7 +84,9 @@
         type: "207 Multi-Status"
     stats:
         is_error: false
-        rfc: 4918
+        rfc:
+            code: 4918,
+            url: "https://tools.ietf.org/html/rfc4918"
     message:
         code: 207
         title: "Multi-Status"
@@ -92,7 +96,9 @@
         type: "208 Already Reported"
     stats:
         is_error: false
-        rfc: 5842
+        rfc:
+            code: 5842,
+            url: "https://tools.ietf.org/html/rfc5842"
     message:
         code: 208
         title: "Already Reported"
@@ -102,7 +108,9 @@
         type: "226 IM Used"
     stats:
         is_error: false
-        rfc: 3229
+        rfc:
+            code: 3229,
+            url: "https://tools.ietf.org/html/rfc3229"
     message:
         code: 226
         title: "IM Used"
@@ -141,7 +149,9 @@
         type: "302 Found"
     stats:
         is_error: true
-        rfc: 1945
+        rfc:
+            code: 1945,
+            url: "https://tools.ietf.org/html/rfc1945"
     message:
         code: 302
         title: "Moved Temporarily"
@@ -161,7 +171,9 @@
         type: "304 Not Modified"
     stats:
         is_error: true
-        rfc: 7232
+        rfc:
+            code: 7232,
+            url: "https://tools.ietf.org/html/rfc7232"
     message:
         code: 304
         title: "Not Modified"
@@ -201,7 +213,9 @@
         type: "308 Permanent Redirect"
     stats:
         is_error: true
-        rfc: 7538
+        rfc:
+            code: 7538,
+            url: "https://tools.ietf.org/html/rfc7538"
     message:
         code: 308
         title: "Permanent Redirect"
@@ -229,7 +243,9 @@
         type: "401 Unauthorized"
     stats:
         is_error: true
-        rfc: 7235
+        rfc:
+            code: 7235,
+            url: "https://tools.ietf.org/html/rfc7235"
     message:
         code: 401
         title: "Unauthorized"
@@ -279,7 +295,9 @@
         type: "407 Proxy Authentication Required"
     stats:
         is_error: true
-        rfc: 7235
+        rfc:
+            code: 7235,
+            url: "https://tools.ietf.org/html/rfc7235"
     message:
         code: 407
         title: "Proxy Authentication Required"
@@ -329,7 +347,9 @@
         type: "412 Precondition Failed"
     stats:
         is_error: true
-        rfc: 7232
+        rfc:
+            code: 7232,
+            url: "https://tools.ietf.org/html/rfc7232"
     message:
         code: 412
         title: "Precondition Failed"
@@ -339,7 +359,9 @@
         type: "413 Payload Too Large"
     stats:
         is_error: true
-        rfc: 7231
+        rfc:
+            code: 7231,
+            url: "https://tools.ietf.org/html/rfc7231"
     message:
         code: 413
         title: "Payload Too Large"
@@ -349,7 +371,9 @@
         type: "414 URI Too Long"
     stats:
         is_error: true
-        rfc: 7231
+        rfc:
+            code: 7231,
+            url: "https://tools.ietf.org/html/rfc7231"
     message:
         code: 414
         title: "URI Too Long"
@@ -369,7 +393,9 @@
         type: "416 Range Not Satisfiable"
     stats:
         is_error: true
-        rfc: 7233
+        rfc:
+            code: 7233,
+            url: "https://tools.ietf.org/html/rfc7233"
     message:
         code: 416
         title: "Range Not Satisfiable"
@@ -389,7 +415,9 @@
         type: "418 I'm a teapot"
     stats:
         is_error: true
-        rfc: 2324
+        rfc:
+            code: 2324,
+            url: "https://tools.ietf.org/html/rfc2324"
     message:
         code: 418
         title: "I'm a teapot"
@@ -399,7 +427,9 @@
         type: "421 Misdirected Request"
     stats:
         is_error: true
-        rfc: 7540
+        rfc:
+            code: 7540,
+            url: "https://tools.ietf.org/html/rfc7540"
     message:
         code: 421
         title: "Misdirected Request"
@@ -409,7 +439,9 @@
         type: "422 Unprocessable Entity"
     stats:
         is_error: true
-        rfc: 4918
+        rfc:
+            code: 4918,
+            url: "https://tools.ietf.org/html/rfc4918"
     message:
         code: 422
         title: "Unprocessable Entity"
@@ -419,7 +451,9 @@
         type: "423 Locked"
     stats:
         is_error: true
-        rfc: 4918
+        rfc:
+            code: 4918,
+            url: "https://tools.ietf.org/html/rfc4918"
     message:
         code: 423
         title: "Locked"
@@ -429,7 +463,9 @@
         type: "424 Failed Dependency"
     stats:
         is_error: true
-        rfc: 4918
+        rfc:
+            code: 4918,
+            url: "https://tools.ietf.org/html/rfc4918"
     message:
         code: 424
         title: "Failed Dependency"
@@ -449,7 +485,9 @@
         type: "428 Precondition Required"
     stats:
         is_error: true
-        rfc: 6585
+        rfc:
+            code: 6585,
+            url: "https://tools.ietf.org/html/rfc6585"
     message:
         code: 428
         title: "Precondition Required"
@@ -459,7 +497,9 @@
         type: "429 Too Many Requests"
     stats:
         is_error: true
-        rfc: 6585
+        rfc:
+            code: 6585,
+            url: "https://tools.ietf.org/html/rfc6585"
     message:
         code: 429
         title: "Too Many Requests"
@@ -469,7 +509,9 @@
         type: "431 Request Header Fields Too Large"
     stats:
         is_error: true
-        rfc: 6585
+        rfc:
+            code: 6585,
+            url: "https://tools.ietf.org/html/rfc6585"
     message:
         code: 431
         title: "Request Header Fields Too Large"
@@ -509,7 +551,9 @@
         type: "451 Unavailable For Legal Reasons"
     stats:
         is_error: true
-        rfc: 7725
+        rfc:
+            code: 7725,
+            url: "https://tools.ietf.org/html/rfc7725"
     message:
         code: 451
         title: "Unavailable For Legal Reasons"
@@ -638,7 +682,9 @@
         type: "506 Variant Also Negotiates"
     stats:
         is_error: true
-        rfc: 2295
+        rfc:
+            code: 2295,
+            url: "https://tools.ietf.org/html/rfc2295"
     message:
         code: 506
         title: "Variant Also Negotiates"
@@ -648,7 +694,9 @@
         type: "507 Insufficient Storage"
     stats:
         is_error: true
-        rfc: 4918
+        rfc:
+            code: 4918,
+            url: "https://tools.ietf.org/html/rfc4918"
     message:
         code: 507
         title: "Insufficient Storage"
@@ -658,7 +706,9 @@
         type: "508 Loop Detected"
     stats:
         is_error: true
-        rfc: 5842
+        rfc:
+            code: 5842,
+            url: "https://tools.ietf.org/html/rfc5842"
     message:
         code: 508
         title: "Loop Detected"
@@ -668,7 +718,9 @@
         type: "509 Bandwidth Limit Exceeded"
     stats:
         is_error: true
-        rfc: 5842
+        rfc:
+            code: 5842,
+            url: "https://tools.ietf.org/html/rfc5842"
     message:
         code: 509
         title: "Bandwidth Limit Exceeded"
@@ -678,7 +730,9 @@
         type: "510 Not Extended"
     stats:
         is_error: true
-        rfc: 2774
+        rfc:
+            code: 2774,
+            url: "https://tools.ietf.org/html/rfc2774"
     message:
         code: 510
         title: "Not Extended"
@@ -688,7 +742,9 @@
         type: "511 Network Authentication Required"
     stats:
         is_error: true
-        rfc: 6585
+        rfc:
+            code: 6585,
+            url: "https://tools.ietf.org/html/rfc6585"
     message:
         code: 511
         title: "Network Authentication Required"

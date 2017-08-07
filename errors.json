@@ -89,7 +89,10 @@
 		},
 		"stats": {
 			"is_error": false,
-			"rfc": 7233
+			"rfc": {
+				"code": 7233,
+				"url": "https://tools.ietf.org/html/rfc7233"
+			}
 		},
 		"message": {
 			"code": 206,
@@ -103,7 +106,10 @@
 		},
 		"stats": {
 			"is_error": false,
-			"rfc": 4918
+			"rfc": {
+				"code": 4918,
+				"url": "https://tools.ietf.org/html/rfc4918"
+			}
 		},
 		"message": {
 			"code": 207,
@@ -117,7 +123,10 @@
 		},
 		"stats": {
 			"is_error": false,
-			"rfc": 5842
+			"rfc": {
+				"code": 5842,
+				"url": "https://tools.ietf.org/html/rfc5842"
+			}
 		},
 		"message": {
 			"code": 208,
@@ -131,7 +140,10 @@
 		},
 		"stats": {
 			"is_error": false,
-			"rfc": 3229
+			"rfc": {
+				"code": 3229,
+				"url": "https://tools.ietf.org/html/rfc3229"
+			}
 		},
 		"message": {
 			"code": 226,
@@ -173,7 +185,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 1945
+			"rfc": {
+				"code": 1945,
+				"url": "https://tools.ietf.org/html/rfc1945"
+			}
 		},
 		"message": {
 			"code": 302,
@@ -201,7 +216,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7232
+			"rfc": {
+				"code": 7232,
+				"url": "https://tools.ietf.org/html/rfc7232"
+			}
 		},
 		"message": {
 			"code": 304,
@@ -257,7 +275,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7538
+			"rfc": {
+				"code": 7538,
+				"url": "https://tools.ietf.org/html/rfc7538"
+			}
 		},
 		"message": {
 			"code": 308,
@@ -285,7 +306,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7235
+			"rfc": {
+				"code": 7235,
+				"url": "https://tools.ietf.org/html/rfc7235"
+			}
 		},
 		"message": {
 			"code": 401,
@@ -355,7 +379,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7235
+			"rfc": {
+				"code": 7235,
+				"url": "https://tools.ietf.org/html/rfc7235"
+			}
 		},
 		"message": {
 			"code": 407,
@@ -425,7 +452,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7232
+			"rfc": {
+				"code": 7232,
+				"url": "https://tools.ietf.org/html/rfc7232"
+			}
 		},
 		"message": {
 			"code": 412,
@@ -439,7 +469,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7231
+			"rfc": {
+				"code": 7231,
+				"url": "https://tools.ietf.org/html/rfc7231"
+			}
 		},
 		"message": {
 			"code": 413,
@@ -453,7 +486,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7231
+			"rfc": {
+				"code": 7231,
+				"url": "https://tools.ietf.org/html/rfc7231"
+			}
 		},
 		"message": {
 			"code": 414,
@@ -481,7 +517,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7233
+			"rfc": {
+				"code": 7233,
+				"url": "https://tools.ietf.org/html/rfc7233"
+			}
 		},
 		"message": {
 			"code": 416,
@@ -509,7 +548,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 2324
+			"rfc": {
+				"code": 2324,
+				"url": "https://tools.ietf.org/html/rfc2324"
+			}
 		},
 		"message": {
 			"code": 418,
@@ -523,7 +565,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7540
+			"rfc": {
+				"code": 7540,
+				"url": "https://tools.ietf.org/html/rfc7540"
+			}
 		},
 		"message": {
 			"code": 421,
@@ -537,7 +582,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 4918
+			"rfc": {
+				"code": 4918,
+				"url": "https://tools.ietf.org/html/rfc4918"
+			}
 		},
 		"message": {
 			"code": 422,
@@ -551,7 +599,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 4918
+			"rfc": {
+				"code": 4918,
+				"url": "https://tools.ietf.org/html/rfc4918"
+			}
 		},
 		"message": {
 			"code": 423,
@@ -565,7 +616,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 4918
+			"rfc": {
+				"code": 4918,
+				"url": "https://tools.ietf.org/html/rfc4918"
+			}
 		},
 		"message": {
 			"code": 424,
@@ -593,7 +647,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 6585
+			"rfc": {
+				"code": 6585,
+				"url": "https://tools.ietf.org/html/rfc6585"
+			}
 		},
 		"message": {
 			"code": 428,
@@ -607,7 +664,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 6585
+			"rfc": {
+				"code": 6585,
+				"url": "https://tools.ietf.org/html/rfc6585"
+			}
 		},
 		"message": {
 			"code": 429,
@@ -621,7 +681,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 6585
+			"rfc": {
+				"code": 6585,
+				"url": "https://tools.ietf.org/html/rfc6585"
+			}
 		},
 		"message": {
 			"code": 431,
@@ -675,7 +738,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 7725
+			"rfc": {
+				"code": 7725,
+				"url": "https://tools.ietf.org/html/rfc7725"
+			}
 		},
 		"message": {
 			"code": 451,
@@ -841,7 +907,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 2295
+			"rfc": {
+				"code": 2295,
+				"url": "https://tools.ietf.org/html/rfc2295"
+			}
 		},
 		"message": {
 			"code": 506,
@@ -855,7 +924,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 4918
+			"rfc": {
+				"code": 4918,
+				"url": "https://tools.ietf.org/html/rfc4918"
+			}
 		},
 		"message": {
 			"code": 507,
@@ -869,7 +941,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 5842
+			"rfc": {
+				"code": 5842,
+				"url": "https://tools.ietf.org/html/rfc5842"
+			}
 		},
 		"message": {
 			"code": 508,
@@ -883,7 +958,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 5842
+			"rfc": {
+				"code": 5842,
+				"url": "https://tools.ietf.org/html/rfc5842"
+			}
 		},
 		"message": {
 			"code": 509,
@@ -897,7 +975,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 2774
+			"rfc": {
+				"code": 2774,
+				"url": "https://tools.ietf.org/html/rfc2774"
+			}
 		},
 		"message": {
 			"code": 510,
@@ -911,7 +992,10 @@
 		},
 		"stats": {
 			"is_error": true,
-			"rfc": 6585
+			"rfc": {
+				"code": 6585,
+				"url": "https://tools.ietf.org/html/rfc6585"
+			}
 		},
 		"message": {
 			"code": 511,

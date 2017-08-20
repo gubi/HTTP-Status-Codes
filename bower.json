@@ -2,7 +2,7 @@
   "name": "HTTP Status codes",
   "homepage": "https://github.com/gubi/HTTP-Error-Codes",
   "authors": [
-    "gubi <gubi.ale@iod.io>"
+    "Alessandro Gubitosi <gubi.ale@iod.io>"
   ],
   "description": "A collection of common HTTP Status codes",
   "main": "",

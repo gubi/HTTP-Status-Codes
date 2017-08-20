@@ -1,0 +1,17 @@
+{
+  "name": "HTTP Status codes",
+  "homepage": "https://github.com/gubi/HTTP-Error-Codes",
+  "authors": [
+    "gubi <gubi.ale@iod.io>"
+  ],
+  "description": "A collection of common HTTP Status codes",
+  "main": "",
+  "keywords": [
+    "HTTP",
+    "Status",
+    "error",
+    "codes",
+    "API"
+  ],
+  "license": "GPL"
+}
